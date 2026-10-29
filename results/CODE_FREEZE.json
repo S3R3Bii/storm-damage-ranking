@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-10-29T17:26:14.394816+00:00",
+  "status": "FROZEN_BEFORE_EVALUATION_OUTCOMES",
+  "code_checkpoint": "7073ac85b8ef8ca5e00028b457a29b703c318e46",
+  "source_checkpoint": "a60be9706965ab928917c22466f6ab56acd46c47",
+  "sha256": {
+    "PROTOCOL.md": "47b4ed458b1dd0a1e342caf5be857d837fc38e503a41317d1c3880c5b2e87cf8",
+    "src/config.py": "cc1bd08561d72bd932fd08e12d1ce62422ee6e5d2303b095cc00e68cd8ad4aed",
+    "src/ingest.py": "d035e756bacc4af81b1a01d94e96686ae8c44d95c863c5592a71a20ac771fba7",
+    "src/calibrate.py": "f4d0b5610d37bff1ad43abf1e3e7123a01f48a1412a4d756aaa466de82f27b3a",
+    "src/accounting.py": "64aaf09ffd5750591d47fdbb296f39c7c2f1ade889fefe5f84a62efa4114e886",
+    "src/analyze.py": "57f1f5608a15480ef2299818a19f431d97e29206ee4656f9bdddf7133fcb521b",
+    "src/verify_analysis.py": "990f19beac21386f42b01a550319a1bc45b6ec885c6016f0a87355c1bba61931",
+    "src/verify_source.py": "332d37f864b56b8e9ae2c158fa777b15fd11545676f970e65c672b156d32a509",
+    "tests/test_boundaries.py": "8d0bef0ace6276bac5b8da6e34c3552b290dfb6d647d185cc70f912e07c4461d",
+    "data/source/manifest.json": "22f4e45cfb8325f36f6e7109279d3e2b3f7fdcd843e0ccb82a8d8e96442cea13",
+    "data/reports.csv": "5b2f75520b131e04c3ee3dde99896eddb3931e5bfec7d908893c0cbdd7c51b3f",
+    "results/calibration.json": "15cf1cf1d4e242cea59db29339019e8790765b50cc354907aa321d471c7c56fe"
+  },
+  "separation": "Only 2015\u20132019 damage/ranking/resampling outputs have been computed. All-year source coverage/format counts are allowed. No 2020\u20132023 damage-total/rank/bootstrap output has been computed.",
+  "source_checks": {
+    "original_selected_fields": 401994,
+    "normalized_fields": 535992,
+    "state_year_cells": 54,
+    "calibration_thresholds": 11
+  },
+  "development_checks": {
+    "boundary_tests": 8,
+    "independent_value_checks": 874218,
+    "max_float_difference": 1.6653345369377348e-16,
+    "cents_and_ranks": "exact"
+  },
+  "review_rounds_completed": 2,
+  "review_budget": "3 substantive rounds /45 active review minutes /60 review-specific calls per study; execution separate",
+  "workload_proxy": "Source discovery began about17:11UTC; freeze around17:26UTC. Elapsed time is an upper bound on active review, not quota/billing. Review-specific calls were not separately instrumented; no delegation or background review.",
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T17:18:20Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 69,
+    "remaining_percent": 31,
+    "reset_unix": 1793782197
+  },
+  "gates": {
+    "source_rights": "PASS",
+    "source_privacy": "PASS: minimal official statistical fields; excluded full originals stay outside Git",
+    "coverage": "PASS unchanged",
+    "calibration": "PASS independent rational quantiles",
+    "development_science": "PASS all retained outputs",
+    "evaluation": "PENDING",
+    "figures_manuscript": "PENDING",
+    "replay_and_remote_release": "PENDING"
+  },
+  "rng_limit": "Documented NumPy PCG64 shared by both paths; independent aggregation is not independent RNG-library certification."
+}
