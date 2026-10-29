@@ -1,0 +1,7 @@
+{
+  "status": "FAIL_PRESENTATION",
+  "version": "study13-paper-render-1",
+  "pdf_sha256": "07fc00dcc3f122bb580e9d0aaaa06c5d84519a1351cb72a76c5c970876d1b48d",
+  "evidence": "Page8 rendered shell commands through LaTeX path formatting, which removed literal spaces and made the commands unusable.",
+  "repair": "Use a literal multiline verbatim command block; recompile and inspect the affected page. No scientific output changed."
+}

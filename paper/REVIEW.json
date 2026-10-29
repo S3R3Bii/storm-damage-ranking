@@ -1,0 +1,77 @@
+{
+  "timestamp_utc": "2026-10-29T17:37:01.506067+00:00",
+  "version": "study13-local-candidate-3",
+  "status": "LOCAL_CHECKS_PASS_REMOTE_RELEASE_PENDING",
+  "manuscript_sha256": "464a587b91631fb443b0c52d0daf1d2f1b229be7d6ee0da79a9fb45430a4c60c",
+  "public_file_sha256": {
+    "paper/main.tex": "a38bb548ce0a6c73cdc760050f5c7e42166d5463f3be0fa9417021e984a211aa",
+    "paper/manuscript.pdf": "464a587b91631fb443b0c52d0daf1d2f1b229be7d6ee0da79a9fb45430a4c60c",
+    "paper/images/annual_tail_sensitivity.pdf": "bee897d09b01d3e0ebb7cd06d58df88bd76f84d85eb2b2cc93ce7a2f1e0808ed",
+    "paper/images/resampling_intervals.pdf": "957a973c855d979ddb968cb8e210beb80bbbecab2753ba73e04183bfbda81e29",
+    "paper/images/scenario_ranks.pdf": "961e6c551b56ba605030620fb0cf4d4f60884a721ce156e40c4fae81e5b4dba8"
+  },
+  "publication_certificate_sha256": {
+    "results/development/INDEPENDENT_CHECK.json": "645aef3fc1944913c8bdd84dcf1686aa8de498bdb4120782dd9b753d094b7fb0",
+    "results/evaluation/INDEPENDENT_CHECK.json": "a9fc519e1eed20d7800a3849a98dae839b56a66b91b39168a7ceaefd87e50cf7"
+  },
+  "acceptance_criteria": {
+    "source_rights_privacy": {
+      "grade": "PASS",
+      "evidence": "Nine full originals remain outside Git; all 401,994 selected original strings checked independently; public snapshot contains only fixed statistical fields with NOAA attribution"
+    },
+    "coverage": {
+      "grade": "PASS",
+      "evidence": "All 54 state/year cells and five calibration-type minimums pass unchanged; blanks and explicit zeros retained; malformed amounts rejected"
+    },
+    "separation": {
+      "grade": "PASS",
+      "evidence": "Freeze fc8ac41d0cd10dc19b46bdfae39b2204d92493a4 pushed before evaluation dollar totals, ranks or bootstrap output; calibration uses2015\u20132019 only"
+    },
+    "scientific_values": {
+      "grade": "PASS",
+      "evidence": "8 boundary tests;874,218 development and738,546 evaluation values checked independently;all cent/rank equalities exact;shared PCG64 limitation disclosed"
+    },
+    "fresh_replay": {
+      "grade": "PASS",
+      "evidence": "1,855,811 exact and147,422 floating fields rebuilt from minimized source; public replay does not reread private originals"
+    },
+    "presentation_source_support": {
+      "grade": "PASS",
+      "evidence": "Three original vector figures;120 plotted values checked;three standalone PNGs and all eight PDF pages inspected;page8 freshly rerendered after unusable command-spacing repair. Source counts, limitations, caption units and all tables checked separately."
+    },
+    "publication_privacy": {
+      "grade": "PASS",
+      "evidence": "Exact staged audit of 92 intended files found no issues; five approved independent paper files match their hashes. Numerical/PDF command-text and bounded active-content checks passed."
+    },
+    "remote_release": {
+      "grade": "PENDING",
+      "evidence": "Exact-head Linux CI, tested/merged-tree identity and remote annotated tag still required"
+    }
+  },
+  "review_round": 3,
+  "review_budget": "3 substantive rounds /45 active review minutes /60 review-specific calls per study; execution separate",
+  "workload_proxies": {
+    "elapsed_source_discovery_to_candidate_minutes_upper_bound": 30,
+    "review_specific_calls_upper_bound": 50,
+    "notes": "Conservative bounds, not exact active-review or billing counts; no agents, external judge, background review or paid work."
+  },
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29T17:26:55Z",
+    "bucket": "codex",
+    "window_minutes": 10080,
+    "used_percent": 71,
+    "remaining_percent": 29,
+    "reset_unix": 1793782197,
+    "shared_account_not_task_usage": true
+  },
+  "scope_limits": [
+    "Recorded-damage shares are not true risk or expected insured loss",
+    "Quantile assignments and cap are fixed scenarios, not identified missing-loss bounds",
+    "Unreported events, ambiguous zeros, asset exposure and local price differences remain unknown",
+    "Conditional bootstrap assumes within-year exchangeability and incomplete episode lineage",
+    "No new method, exhaustive novelty, prospective validation or peer-review claim"
+  ],
+  "material_changes": "Complete frozen evaluation, isolated public replay, original figures and eight-page manuscript. Independent source SQL spacing and rendered command failures retained; no criteria/tolerance relaxation.",
+  "next_step": "Pass exact-head Linux CI, merged/tested-tree identity and annotated remote-tag checks before counting release."
+}

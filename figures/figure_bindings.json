@@ -1,0 +1,560 @@
+{
+  "ranks": [
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_raw",
+      "rank": 2
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "median_raw",
+      "rank": 2
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "p90_raw",
+      "rank": 3
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_capped",
+      "rank": 5
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "median_capped",
+      "rank": 5
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "p90_capped",
+      "rank": 6
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_raw",
+      "rank": 3
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "median_raw",
+      "rank": 3
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "p90_raw",
+      "rank": 4
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_capped",
+      "rank": 4
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "median_capped",
+      "rank": 4
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "p90_capped",
+      "rank": 2
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_raw",
+      "rank": 1
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "median_raw",
+      "rank": 1
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "p90_raw",
+      "rank": 1
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_capped",
+      "rank": 1
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "median_capped",
+      "rank": 1
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "p90_capped",
+      "rank": 3
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_raw",
+      "rank": 4
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "median_raw",
+      "rank": 4
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "p90_raw",
+      "rank": 2
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_capped",
+      "rank": 2
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "median_capped",
+      "rank": 2
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "p90_capped",
+      "rank": 1
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_raw",
+      "rank": 6
+    },
+    {
+      "state": "OHIO",
+      "scenario": "median_raw",
+      "rank": 6
+    },
+    {
+      "state": "OHIO",
+      "scenario": "p90_raw",
+      "rank": 6
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_capped",
+      "rank": 3
+    },
+    {
+      "state": "OHIO",
+      "scenario": "median_capped",
+      "rank": 3
+    },
+    {
+      "state": "OHIO",
+      "scenario": "p90_capped",
+      "rank": 5
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_raw",
+      "rank": 5
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "median_raw",
+      "rank": 5
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "p90_raw",
+      "rank": 5
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_capped",
+      "rank": 6
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "median_capped",
+      "rank": 6
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "p90_capped",
+      "rank": 4
+    }
+  ],
+  "intervals": [
+    {
+      "method": "event",
+      "state": "ILLINOIS",
+      "low_percent": 5.331151636385326,
+      "high_percent": 31.662211179794635,
+      "point_percent": 21.39295128363922
+    },
+    {
+      "method": "event",
+      "state": "INDIANA",
+      "low_percent": 3.965707117374876,
+      "high_percent": 20.807141525079054,
+      "point_percent": 9.836460955511942
+    },
+    {
+      "method": "event",
+      "state": "MICHIGAN",
+      "low_percent": 27.317318684787466,
+      "high_percent": 65.25021692882198,
+      "point_percent": 49.09736856369413
+    },
+    {
+      "method": "event",
+      "state": "MINNESOTA",
+      "low_percent": 4.908698250478747,
+      "high_percent": 14.644853283164066,
+      "point_percent": 7.863282728682792
+    },
+    {
+      "method": "event",
+      "state": "OHIO",
+      "low_percent": 3.618258913889055,
+      "high_percent": 10.695768498827606,
+      "point_percent": 5.709009702031631
+    },
+    {
+      "method": "event",
+      "state": "WISCONSIN",
+      "low_percent": 2.3043465155626017,
+      "high_percent": 14.007898885215358,
+      "point_percent": 6.10092676644028
+    },
+    {
+      "method": "episode",
+      "state": "ILLINOIS",
+      "low_percent": 6.20549025116429,
+      "high_percent": 35.18209157313366,
+      "point_percent": 21.39295128363922
+    },
+    {
+      "method": "episode",
+      "state": "INDIANA",
+      "low_percent": 2.9054885142647047,
+      "high_percent": 23.574973852532917,
+      "point_percent": 9.836460955511942
+    },
+    {
+      "method": "episode",
+      "state": "MICHIGAN",
+      "low_percent": 21.01553575817926,
+      "high_percent": 67.09280266354185,
+      "point_percent": 49.09736856369413
+    },
+    {
+      "method": "episode",
+      "state": "MINNESOTA",
+      "low_percent": 4.30965086380667,
+      "high_percent": 16.41941444552339,
+      "point_percent": 7.863282728682792
+    },
+    {
+      "method": "episode",
+      "state": "OHIO",
+      "low_percent": 3.5987589317486197,
+      "high_percent": 13.096474984735584,
+      "point_percent": 5.709009702031631
+    },
+    {
+      "method": "episode",
+      "state": "WISCONSIN",
+      "low_percent": 1.8894609199331707,
+      "high_percent": 17.35515846710163,
+      "point_percent": 6.10092676644028
+    }
+  ],
+  "annual": [
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 5.908451707750969
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 12.176139205081753
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 8.784930175095335
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 58.702284046628826
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 13.767089872800181
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 17.396146443786087
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 9.006633175447192
+    },
+    {
+      "state": "ILLINOIS",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 7.572636385018555
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 1.7099442624729895
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 17.34317404278291
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 13.359765965012068
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 6.932959551779796
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 6.686964299171436
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 14.000497372575307
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 9.590617963567832
+    },
+    {
+      "state": "INDIANA",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 20.5167776909797
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 67.37237445110631
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 59.44824023077203
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 41.3939793759864
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 28.1748801969118
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 38.59723230328054
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 33.03721644356984
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 21.328494705802708
+    },
+    {
+      "state": "MICHIGAN",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 41.986042476209924
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 3.553768127627831
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 5.453678343263464
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 19.982769304675557
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 2.4629151391643207
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 13.897482577948065
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 17.352896654628807
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 31.244491158394183
+    },
+    {
+      "state": "MINNESOTA",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 9.860546668429976
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 6.451145862334242
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 2.5018629343949024
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 10.985471782720877
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 2.8975582286765045
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 15.889367491264183
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 8.167938931297709
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 19.40063803328713
+    },
+    {
+      "state": "OHIO",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 15.454025107273237
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_raw",
+      "year": 2020,
+      "share_percent": 15.004315588707662
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_raw",
+      "year": 2021,
+      "share_percent": 3.0769052437049376
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_raw",
+      "year": 2022,
+      "share_percent": 5.493083396509769
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_raw",
+      "year": 2023,
+      "share_percent": 0.8294028368387533
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_capped",
+      "year": 2020,
+      "share_percent": 11.161863455535592
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_capped",
+      "year": 2021,
+      "share_percent": 10.045304154142249
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_capped",
+      "year": 2022,
+      "share_percent": 9.429124963500952
+    },
+    {
+      "state": "WISCONSIN",
+      "scenario": "zero_capped",
+      "year": 2023,
+      "share_percent": 4.6099716720886095
+    }
+  ]
+}
