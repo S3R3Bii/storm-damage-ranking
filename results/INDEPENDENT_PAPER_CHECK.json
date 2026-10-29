@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "pages": 8,
+  "scope": "All four manuscript tables, scenario/rank/coverage claims, source counts, thresholds, interval widths/endpoints, leave-year findings, unit counts and committed independent diagnostic certificates; exact paper hashes, readable command text and bounded PDF active-content checks.",
+  "limitations": "Rendered review is separate; no peer-review, measurement-accuracy, accessibility-conformance or universal security claim."
+}

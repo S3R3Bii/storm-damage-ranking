@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "exact_discrete_or_cent_fields_rebuilt": 1855811,
+  "floating_fields_rebuilt": 147422,
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "scope": "Every minimized-source cell, calibration and source gate, scenario, unit vector, bootstrap annual cent total, score, rank and summary freshly rebuilt in isolation. Independent SQL/rational/indexed-row checks rerun. Excluded private originals and PDF rendering are not part of this public replay."
+}

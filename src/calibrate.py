@@ -20,7 +20,7 @@ def calibrate(root=ROOT):
             'source_report_sha256':hashlib.sha256((root/'data/reports.csv').read_bytes()).hexdigest(),
             'evaluation_used':False}
     write_csv(root/'results/calibration_positives.csv',[{k:r[k] for k in ['source_year','source_row','event_id','state','year','event_type','damage_cents']} for r in selected])
-    (root/'results/calibration.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+    (root/'results/calibration.json').write_bytes((json.dumps(report,indent=2)+'\n').encode('utf-8'))
     print(json.dumps(report))
 
 

@@ -1,0 +1,26 @@
+{
+  "status": "COMPUTED_PENDING_INDEPENDENT_CHECKS",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "reports": 20289,
+  "scenarios": [
+    "zero_raw",
+    "median_raw",
+    "p90_raw",
+    "zero_capped",
+    "median_capped",
+    "p90_capped"
+  ],
+  "replicates_per_unit": 1000,
+  "unit_methods": [
+    "event",
+    "episode"
+  ],
+  "evaluation_used": true,
+  "bootstrap_rows": 72000,
+  "source_note": "Conditional empirical reporting/tail/resampling scenarios; no identified true-loss bound or prospective risk claim."
+}

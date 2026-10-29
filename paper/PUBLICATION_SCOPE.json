@@ -1,0 +1,12 @@
+{
+  "scope": "independent-program-study",
+  "formal_submission_target": false,
+  "authority": "User authorizes reviewed independent program manuscripts on project-specific GitHub repositories; separate formal-publication work including Azure optimization stays private.",
+  "public_files": {
+    "paper/main.tex": "a38bb548ce0a6c73cdc760050f5c7e42166d5463f3be0fa9417021e984a211aa",
+    "paper/manuscript.pdf": "464a587b91631fb443b0c52d0daf1d2f1b229be7d6ee0da79a9fb45430a4c60c",
+    "paper/images/annual_tail_sensitivity.pdf": "bee897d09b01d3e0ebb7cd06d58df88bd76f84d85eb2b2cc93ce7a2f1e0808ed",
+    "paper/images/resampling_intervals.pdf": "957a973c855d979ddb968cb8e210beb80bbbecab2753ba73e04183bfbda81e29",
+    "paper/images/scenario_ranks.pdf": "961e6c551b56ba605030620fb0cf4d4f60884a721ce156e40c4fae81e5b4dba8"
+  }
+}
