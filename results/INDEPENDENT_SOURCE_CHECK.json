@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "normalized_field_values_checked": 535992,
+  "sql_state_year_cells": 54,
+  "rational_calibration_thresholds_checked": 11,
+  "selected_rows": 44666,
+  "scope": "Independent token/cent parser, every normalized field, unique report grain, SQL coverage and exact rational type7 calibration. Original-to-subset certificate bound to manifest; private originals are not reread by public replay."
+}

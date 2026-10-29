@@ -1,0 +1,42 @@
+{
+  "status": "CALIBRATED_PENDING_CODE_FREEZE",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "type_thresholds": {
+    "Flash Flood": {
+      "positive_n": 789,
+      "median_cents": 1000000,
+      "p90_cents": 50000000
+    },
+    "Flood": {
+      "positive_n": 901,
+      "median_cents": 500000,
+      "p90_cents": 40000000
+    },
+    "Hail": {
+      "positive_n": 181,
+      "median_cents": 1500000,
+      "p90_cents": 39000000
+    },
+    "Thunderstorm Wind": {
+      "positive_n": 5873,
+      "median_cents": 500000,
+      "p90_cents": 4000000
+    },
+    "Tornado": {
+      "positive_n": 563,
+      "median_cents": 5000000,
+      "p90_cents": 50000000
+    }
+  },
+  "pooled_positive_n": 8307,
+  "pooled_p99_cap_cents": 279100000,
+  "convention": "Type7linear quantile, nearestcent ties-to-even; fixed sensitivity conventions, no optimization or fitted missingness model",
+  "source_report_sha256": "5b2f75520b131e04c3ee3dde99896eddb3931e5bfec7d908893c0cbdd7c51b3f",
+  "evaluation_used": false
+}

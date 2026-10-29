@@ -1,0 +1,6 @@
+{
+  "version": "study13-source-check-1",
+  "status": "FAIL_IMPLEMENTATION",
+  "evidence": "Independent source verification stopped at a malformed SQL BETWEEN expression. Four source-boundary tests had passed; this was not a passing source receipt.",
+  "repair": "Restore required SQL keyword spacing and rerun the full independent source checker. No data, source gate, calibration convention or scientific tolerance changed."
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checked_original_files": 9,
+  "selected_original_fields_checked": 401994,
+  "manifest_sha256": "22f4e45cfb8325f36f6e7109279d3e2b3f7fdcd843e0ccb82a8d8e96442cea13",
+  "files": [
+    {
+      "year": 2015,
+      "selected_rows": 4341,
+      "original_rows": 57907,
+      "original_sha256": "c4a5a24b8c69ad2b6b867790ce298f5b642a60516c9fce5550a8d2f67cd7bf2e",
+      "subset_sha256": "2e58ddba8c129efe1d18852ab02deff7dfdb0cb4e9de920cd61cb0223f306e7d"
+    },
+    {
+      "year": 2016,
+      "selected_rows": 4170,
+      "original_rows": 56005,
+      "original_sha256": "d8e1389897df3557e74ba36820357f6962a7c0ca922595400fe74d883f7a5036",
+      "subset_sha256": "b2b09c9dfd331172acb59e492e129569a1e082978f672c5e15f8e184d01fdefd"
+    },
+    {
+      "year": 2017,
+      "selected_rows": 5497,
+      "original_rows": 57041,
+      "original_sha256": "bd3ca72b71544222cba8aa2b29eb3f0efe050d3330a0c408e208befb66881750",
+      "subset_sha256": "4083c094afdb7475ff74841b9d195ffa6479a89a0377e0169acfc90002ef4613"
+    },
+    {
+      "year": 2018,
+      "selected_rows": 4476,
+      "original_rows": 62699,
+      "original_sha256": "19702480f50cd2a8dacce5e57891feba156afb87b1ea5cbb4eaeda69d2b964a4",
+      "subset_sha256": "239cdc136de227f5f9dc4655e395dd72127e9823d2f07d33b66c4ee6b98e247c"
+    },
+    {
+      "year": 2019,
+      "selected_rows": 5893,
+      "original_rows": 67864,
+      "original_sha256": "f5043ecc776818b0feffdf1e0fcbaf63329db0635eab1057c7b8ba00ef332e3b",
+      "subset_sha256": "8c0143ee6966524f1a523a97719900a7d68c81b303cbffe8834556db0a32d98e"
+    },
+    {
+      "year": 2020,
+      "selected_rows": 5427,
+      "original_rows": 61281,
+      "original_sha256": "895c56fd46991c4d9a135d67558dc4b447a02a2314efac0ace645135b98f9c9d",
+      "subset_sha256": "26a84ee125f8582ad0544a45800a369d1aae1a55c57289dd5a8ba7ed88f70fc4"
+    },
+    {
+      "year": 2021,
+      "selected_rows": 4036,
+      "original_rows": 61389,
+      "original_sha256": "60c1daf96dbe8eafd48c80df5b70df51a0125ab95d467ee7009a646761d57715",
+      "subset_sha256": "2451cd3c67c4f1527f3a9b5d5e9bdce68c8b4852cb050d4d9e3a08fe6016d753"
+    },
+    {
+      "year": 2022,
+      "selected_rows": 5506,
+      "original_rows": 69887,
+      "original_sha256": "7d6b79d0049a6edec96b061738289daddba90be26fc9afe7b0a6fd617f21452e",
+      "subset_sha256": "0259b86f78208b089913c6d33811e276e67336aaaf903ad80b7696a518340b59"
+    },
+    {
+      "year": 2023,
+      "selected_rows": 5320,
+      "original_rows": 75593,
+      "original_sha256": "713784bed40d9e5a95b1d6240a654f865f3ef97703713105c7b35437270da134",
+      "subset_sha256": "7bea3fdb35d04983a7b06352ddd0e1def2b97b79a3a7b3486f44eb4d24892380"
+    }
+  ],
+  "scope": "Every selected source string and source-row identifier compared against independently decoded private original files; entire original and minimized file hashes verified. Public CI replays only the minimized snapshot, not excluded originals."
+}

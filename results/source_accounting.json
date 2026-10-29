@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "source_files": 9,
+  "selected_rows": 44666,
+  "source_cells": 401994,
+  "calibration_type_positive_counts": {
+    "Flash Flood": 789,
+    "Flood": 901,
+    "Hail": 181,
+    "Thunderstorm Wind": 5873,
+    "Tornado": 563
+  },
+  "errors": [],
+  "coverage_holds": [],
+  "manifest_sha256": "22f4e45cfb8325f36f6e7109279d3e2b3f7fdcd843e0ccb82a8d8e96442cea13",
+  "scope": "Coverage and strict token parsing only. No evaluation damage total, rank, scenario or bootstrap result computed."
+}
