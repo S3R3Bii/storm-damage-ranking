@@ -69,6 +69,12 @@ def verify(root=ROOT):
     assert calibrated['pooled_positive_n']==len(all_positive)
     assert calibrated['pooled_p99_cap_cents']==quantile(all_positive,99,100)
     assert calibrated['evaluation_used'] is False and calibrated['years']==list(range(2015,2020))
+    with (root/'results/calibration_positives.csv').open(encoding='utf-8',newline='') as f:
+        exported_positive=list(csv.DictReader(f))
+    earlier=[r for r in expected if r['year']<=2019 and r['damage_cents'] is not None and r['damage_cents']>0]
+    assert len(exported_positive)==len(earlier)
+    for source,actual in zip(earlier,exported_positive):
+        assert all(str(source[k])==actual[k] for k in actual)
     accounting=json.loads((root/'results/source_accounting.json').read_text())
     assert accounting['status']=='PASS_SOURCE_GATE' and not accounting['errors'] and not accounting['coverage_holds']
     assert accounting['calibration_type_positive_counts']==positive_counts

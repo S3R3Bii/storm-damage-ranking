@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "numeric_or_discrete_values_checked": 874218,
+  "maximum_float_difference": 1.6653345369377348e-16,
+  "absolute_tolerance": 1e-07,
+  "relative_tolerance": 1e-09,
+  "integer_cents_and_discrete_ranks": "Exact equality required",
+  "tables": {
+    "unit_manifest": 10,
+    "unit_vectors": 73752,
+    "annual": 180,
+    "points": 36,
+    "pairwise": 90,
+    "scenario_rank_envelope": 6,
+    "leave_year_out": 180,
+    "state_year_type": 150,
+    "bootstrap": 72000,
+    "intervals": 72,
+    "rank_frequencies": 432,
+    "paired_intervals": 180
+  },
+  "scope": "Independent SQL unit/annual accounting, rational point/leave-year ranks, every regenerated bootstrap annual cent total, score, rank, interval, frequency and paired contrast. No primary helper imported.",
+  "rng_limit": "Both implementations use documented NumPy PCG64 streams. Indexed-row addition independently checks primary count-weighted aggregation; this is not independent RNG-library certification."
+}
